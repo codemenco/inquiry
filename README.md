@@ -1,13 +1,14 @@
 - وب سرویس احراز هویت جیبیت برای لاراول شامل استعلام بانکی، هویتی و خدماتی، صحت‌سنجی و اصالت داده‌های بانکی و اطلاعات شخصی افراد توسط تامین‌کنندگان متعدد و با بالاترین درجه اطمینان مورد بررسی قرار گرفته، تایید و یا رد می‌شود.
 
-## نصب
+
+## Install
 ```
 composer require codemenco/inquiry
 ```
 add this codes to `config/app.php`
 
 ```
-\Webazin\Inquiry\InquiryServiceProvider::class
+\Codemenco\Inquiry\InquiryServiceProvider::class
 ```
 
 ```
