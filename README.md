@@ -8,14 +8,14 @@ composer require codemenco/inquiry
 add this codes to `config/app.php`
 
 ```
-\Codemenco\Inquiry\InquiryServiceProvider::class
+Codemenco\Inquiry\InquiryServiceProvider::class
 ```
 
 ```
-'Inquiry' => \Codemenco\Inquiry\InquiryFacade::class,
+'Inquiry' => Codemenco\Inquiry\InquiryFacade::class,
 ```
 ```
-php artisan vendor publish
+php artisan vendor:publish
 ```
 and edit ``config/inquiry.php``
 
